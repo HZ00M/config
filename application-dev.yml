@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: Config_Client
+  security:
+    user:
+      name: root
+      password: 123
   cloud:
     config:
       profile: dev
