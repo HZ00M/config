@@ -24,6 +24,13 @@ spring:
     username: guest
     password: guest
 
+#使用bus需要配置的
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+
 eureka:
   client:
     serviceUrl:
