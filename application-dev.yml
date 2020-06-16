@@ -1,4 +1,4 @@
-message: 123
+message: 111
 server:
   port: 12581
 spring:
