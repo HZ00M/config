@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Zuul-Gateway
+    name: Zuul_Gateway
 server:
   port: 8899
 
