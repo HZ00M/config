@@ -1,6 +1,6 @@
 message: 222
 server:
-  port: 12581
+  port: 12582
 spring:
   application:
     name: Config_Client
