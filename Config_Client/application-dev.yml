@@ -1,9 +1,13 @@
-message: test
+message: 222
 server:
   port: 12581
 spring:
   application:
     name: Config_Client
+  security:
+    user:
+      name: root
+      password: 123
   cloud:
     config:
       profile: dev
@@ -20,9 +24,14 @@ spring:
     username: guest
     password: guest
 
+#使用bus需要配置的
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://root:123@106.52.151.187:8080/eureka/
-
-
